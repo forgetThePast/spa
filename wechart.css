@@ -1,0 +1,99 @@
+
+.chart-wrapper{
+	
+	box-sizing: border-box;
+	
+	position: relative;
+	min-height: 100%;
+}
+.back{
+	background: #f8f8f8;
+	padding:0 5px;
+}
+.content-top{
+	height: 40px;
+	
+}
+.clearfix{
+	display: inline-block;
+}
+.clearfix:before{
+	display: block;
+    content: '.';
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.content-main{
+	
+	background: #ffffff;
+	/*background: red;*/
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+
+}
+.content-top .back{
+	height: 100%;
+	line-height: 40px;
+
+}
+.msg{
+
+}
+.msg span{
+	
+}
+.msgBox{
+	width: 60%;
+	border: 1px solid red;
+	border-radius: 10px;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 3px 5px;
+}
+.date{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.content-footer{
+	height: 40px;
+	bottom: 0;
+	display: flex;
+	background: #f8f8f8;
+	line-height:40px;
+}
+.file{
+	flex: 0 0 50px;
+	width: 50px;
+	text-align: center;
+	position: relative;
+}
+.fileView{
+	text-decoration: underline;
+}
+.file-select{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	height: 100%;
+	width: 100%;
+}
+.inputBtn{
+	flex: 1;
+	text-align: center;
+}
+.inputBtn input{
+	width: 90%;
+	border: 1px solid #000;
+	height: 80%;
+	
+}
+.send{
+	width: 50px;
+	flex: 0 0 50px;
+	text-align: center;
+	background: green;
+	color: #ffffff;
+}

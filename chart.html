@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>weChart</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css">
+	<link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.0/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="wechart.css">
+
+</head>
+
+<body>
+	<div class="chart-wrapper">
+		<div class="content-top">
+			<div class="back">
+				&lt;返回
+			</div>
+		</div>
+		<div class="content-main clearfix">
+			<div class="chart-box">
+				<ul class="list">
+					<li class="msg">
+						<span class="current-name">老王</span><span class="date">2012-02-18 14：14</span>
+						<div class="msgBox">你可是一个全身有光环的人呢</div>
+					</li>
+				</ul>
+				
+			</div>
+		</div>
+		<div class="content-footer weui-footer_fixed-bottom">
+			<div class="file">
+				<span>附件</span>
+				<input type="file"  style="opacity: 0" class="file-select">
+			</div>
+			<div class="inputBtn">
+				<input type="text">
+			</div>
+			<div class="send">
+				发送
+			</div>
+		</div>
+	</div>
+</body>
+<script src="jquery-3.2.1.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/jquery-weui.min.js"></script>
+<script src="wechart.js"></script>
+<script>
+    $(function() {
+        fengyuan.wechart && fengyuan.wechart.init()
+    })
+</script>
+
+</html>
